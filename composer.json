@@ -1,0 +1,23 @@
+{
+  "name": "oyjz/domain",
+  "description": "some tools for domain, like whois lookup, domain quotes...",
+  "authors": [
+    {
+      "name": "Jin",
+      "email": "hi@oyjz.cn"
+    }
+  ],
+  "require": {
+    "php": ">=7.3"
+  },
+  "autoload": {
+    "files": [
+      "src/functions.php"
+    ],
+    "psr-4": {
+      "oyjz\\domain": "src"
+    }
+  },
+  "homepage": "https://www.oyjz.cn/",
+  "license": "Apache-2.0"
+}
